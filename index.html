@@ -184,13 +184,15 @@
     { title: "Voiture — Boîte manuelle", desc: "Le permis classique. Maîtrisez l'embrayage et la conduite sur tous terrains, à votre rythme.", accent: "#0055FF", icon: 'car' },
     { title: "Voiture — Boîte automatique", desc: "Apprenez plus vite, sans le stress du passage de vitesses. Idéal pour la conduite en ville.", accent: "#00B894", icon: 'car' },
     { title: "Moto — Permis A", desc: "Sentez la liberté des deux-roues. Formation plateau et circulation encadrées par votre monitrice.", accent: "#FFB800", icon: 'bike' },
-    { title: "Cours de sensibilisation", desc: "Cours obligatoires de sensibilisation à la sécurité routière.", accent: "#FF5A5F", icon: 'shield' }
+    { title: "Cours de sensibilisation", desc: "Cours obligatoires de sensibilisation à la sécurité routière.", accent: "#FF5A5F", icon: 'shield' },
+    { title: "Évaluation de l'aptitude à conduire", desc: "Évaluation de vos capacités à conduire en toute sécurité, selon votre expérience et vos éventuelles difficultés au volant.", accent: "#8B5CF6", icon: 'clipboard' }
   ];
 
   const icons = {
     car: '<svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l1.5-4.5A2 2 0 018.4 7h7.2a2 2 0 011.9 1.5L19 13M5 13h14v5H5z M7 18v2 M17 18v2"/></svg>',
     bike: '<svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="5.5" cy="17.5" r="3.5"/><circle cx="18.5" cy="17.5" r="3.5"/><path stroke-linecap="round" stroke-linejoin="round" d="M15 6h3l2 6M12 17.5L9 7l-3 1"/></svg>',
-    shield: '<svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z M9 12l2 2 4-4"/></svg>'
+    shield: '<svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z M9 12l2 2 4-4"/></svg>',
+    clipboard: '<svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 4h6a1 1 0 011 1v1H8V5a1 1 0 011-1z M8 5H6a2 2 0 00-2 2v13a2 2 0 002 2h12a2 2 0 002-2V7a2 2 0 00-2-2h-2 M9 14l2 2 4-4"/></svg>'
   };
 
   document.getElementById('permitsGrid').innerHTML = permits.map(p => `
